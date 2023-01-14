@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <title>UseGIS Ltd - Adrian Strahan - {{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="cinclude/usegis.css" />
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+        <div data-role="header" data-position="fixed" data-theme="a" id="header">
+            <h1>UseGIS Ltd - Adrian Strahan</h1>
+            {% include navigation.html %}
+        </div>
+        {{ content }}
+        <div data-role="footer" >
+            <div id="footerContent">
+            <div class="footer">&copy; Copyright UseGIS Limited 2023</div><div class="footer">Registered in England and Wales with Company Number 5354108</div><div class="footer">VAT Number 869 8573 44</div>
+            <div id="social"><a href="https://twitter.com/adrianstrahan" target="_blank"><img class="footer" src="images/twitter.png" alt="twitter"></a> <a href="https://uk.linkedin.com/in/adrian-strahan-4204691" target="_blank"><img class="footer" src="images/linkedin.png" alt="Linked-In"></a></div>
+            </div>
+        </div>
+    </body>
+</html>

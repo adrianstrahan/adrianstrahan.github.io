@@ -1,0 +1,150 @@
+#picture, #aboutpicture {
+    width:200px;
+    display: block;
+    float: left;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+#fulltext img {
+    float: left;
+    padding-right: 15px;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 57px;
+    height: 57px;
+}
+
+#fulltext img.download {
+    float: none;
+    width: auto;
+    height: auto;
+}
+
+#email {
+    float: none;
+    display: inline;
+    padding: 0px;
+}
+
+.subtitle {
+    font-weight:bold;
+}
+
+.footer {
+    font-size: 12px;
+    font-style: normal;
+    display: block;
+    float: left;
+}
+
+div.footer {
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+#social {
+    display: inline;
+    padding: 0px;
+    float: right;
+}
+
+.info {
+    font-style: italic;
+}
+
+.ui-navbar li .ui-btn {
+    font-size: 7.5px;
+}
+
+.ui-header .ui-title, .ui-footer .ui-title {
+    font-size: 0.5em;
+}
+
+#map {
+    height:200px;
+    width:100%;
+    margin-bottom: 20px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+@media all and (min-width: 350px) {
+    .ui-navbar li .ui-btn {
+        font-size: 8px;
+    }
+    .ui-header .ui-title, .ui-footer .ui-title {
+        font-size: 0.6em;
+    }
+}
+
+@media all and (min-width: 450px) {
+    .ui-navbar li .ui-btn {
+        font-size: 10px;
+    }
+    .ui-header .ui-title, .ui-footer .ui-title {
+        font-size: 0.8em;
+    }
+}
+
+@media all and (min-width: 555px) {
+    .ui-navbar li .ui-btn {
+        font-size: 12.5px;
+    }
+    .ui-header .ui-title, .ui-footer .ui-title {
+        font-size: 1em;
+    }
+}
+
+@media all and (min-width: 50em){
+    #text, #abouttext {
+        float: left;
+        display: block;
+        width: 50%;
+    }
+    #picture, #aboutpicture {
+        width:50%;
+        display: block;
+        float: left;
+    }
+    img {
+        display: block;
+        padding: 10px 15px;
+        float: right;
+    }
+    img.footer {
+        display: block;
+        padding: 0px;
+        float: left;
+    }
+    #social {
+        display: inline;
+        padding: 0px;
+        float: right;
+    }
+    #fulltext {
+        margin-left: auto;
+        margin-right: auto;
+        width:48em;
+    }
+    #fulltext p {
+        padding-left: 72px;
+    }
+    #map {
+        margin-right: auto;
+        margin-left: auto;
+        width: 95%;
+    }
+
+}
+.ui-btn-active {
+    background-color: #38c;
+    border-color: #3388cc;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #059;
+}
