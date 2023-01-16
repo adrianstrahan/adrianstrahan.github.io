@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   UseGIS is a consultancy specialising is iPhone and iPad applications.
   It was founded and run by Adrian Strahan.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "www.usegis.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: adrianstrahan
 github_username:  adrianstrahan
 
